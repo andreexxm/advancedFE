@@ -4,8 +4,8 @@ import "./Body.scss";
 export default class Departments extends Component{
     render() {
 
-        const jobList = (this.props.jobs).map((job) =>
-        <li>{this.props.job}</li>
+        const jobList = (this.props.jobs).map((job, index) =>
+        <li key={index}>{this.props.job}</li>
         )
         return(
             <>
