@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    border-bottom: 1px solid pink;
+    h1 {
+        cursor: pointer;
+        color: blueviolet;
+        &:hover{
+            color: lighten(blueviolet, 20%);
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        
+    }
+}
