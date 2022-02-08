@@ -1,0 +1,41 @@
+%btns {
+    height: 70px;
+    border-radius:10px;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    padding: 100px;
+    &_buttons {
+        display: flex;
+        justify-content: center;
+
+        // &_-increment {
+        //     @extend %btns;
+        // }
+
+        // &_-decrement {
+        //    @extend %btns ;
+        // }
+
+    }
+
+    &_result {
+        display: flex;
+        font-size: 25px;
+        padding: 20px;
+        justify-content: center;
+
+    }
+}
+
+.buttons{
+    @extend %btns;
+}
+

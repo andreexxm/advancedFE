@@ -1,0 +1,46 @@
+/* .item {
+    border: 1px solid grey;
+    padding: 3rem;
+    background-color: beige;
+} */
+
+/* .grid{
+    display: grid;
+    /* grid-template-columns: 10% 20% 30% auto; */
+
+    /* grid-template-columns: repeat(4, 150px); */
+   /* first is the number of repetitons, second is the size */
+
+    /* grid-template-columns: 1fr 2fr 3fr; s */
+    /* divides the page into equal fractions etc */
+
+    /* grid-template-columns: repeat(3, 1fr); */
+
+    /* grid-template-rows: 1fr 50px 3fr 8fr;
+    grid-auto-rows: 4fr; */
+    /* this covers all the cells not specifically covered by the specification
+    } 
+*/
+
+/* main {
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+
+.nav-options{
+    list-style: none;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 0;
+    cursor:pointer;
+    grid-gap: 10px; 
+
+    /* prostor megju grid-items */
+    /*
+    align-items: center;
+} */

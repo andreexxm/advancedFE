@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    &__inscription {
+        margin-top: 5rem;
+        h2 {
+            color: navy;
+        }
+        p {
+            color: orchid;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+        color:inherit;
+
+        &:hover{
+            color:darken(orchid, 20%)
+        }
+    }
+}

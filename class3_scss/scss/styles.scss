@@ -1,0 +1,67 @@
+body {
+    background-color: #efdcf8;
+}
+
+*,
+*::before,
+*::after {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gray;
+    color: #2523bb;
+    padding: 1 rem;
+    h1 {
+        text-align: end;
+    }
+}
+
+//ova ne raboti
+.container {
+    padding: 1rem;
+        h3 {
+            color: orange;
+        }
+
+    &-one {
+        color: blue;
+        background-color: lightsalmon;
+    }
+
+    &-two{
+        button {
+            &:hover {
+                color: darken($color: chartreuse, $amount: 20%);
+            }
+            cursor: pointer;
+
+        }
+    }
+}
+
+// btns global
+
+//% symbol for share style, implying inheritance
+
+%button-global {
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    display: inline-flex;
+}
+
+.btns {
+    margin-top: 2rem;
+
+    &-in{
+        @extend %button-global; // this means that the selected element inherits the btn global style
+        // overrides the inheritance if we want to
+        background-color: rgb(177, 109, 254);
+        &:hover{
+            background-color: darken($color: rgb(177, 109, 254), $amount: 20%);
+        }
+    }
+}

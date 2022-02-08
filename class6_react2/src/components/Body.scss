@@ -1,0 +1,19 @@
+.container {
+    display:  inline-flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    
+
+    &_jobs {
+        display: flex;
+        flex-direction: column;
+        border: 1px;
+        align-items: flex-start;
+
+        ul {
+            list-style: none;
+            justify-content: start;
+            align-items: flex-end;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.container {
+    display:flex;
+    border: 1px solid red;
+    height: 10rem;
+}
+
+.box {
+    height: 100px;
+    padding: 1 rem;
+    margin: 0.5 rem;
+    border: 1px solid purple;
+}

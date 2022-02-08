@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    align-items: center;
+    border-bottom: 1px solid navy;
+
+    h1 {
+        cursor: pointer;
+        color: orchid;
+        &:hover{
+            color: darken(orchid, 20%)
+        }
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+
+        li {
+            color: palevioletred;
+            margin-right: 1rem;
+            cursor: pointer;
+            &:hover{
+                color: darken(palevioletred, 20%);
+            }
+            text-decoration: none;
+            
+        }
+    }
+}

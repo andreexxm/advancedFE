@@ -1,0 +1,19 @@
+.product{
+    max-width: 300px;
+    overflow: auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &_info {
+        color: royalblue;
+    
+    }
+
+    &_image{
+        width: 200px;
+    }
+}
